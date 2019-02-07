@@ -1,0 +1,6 @@
+Patron de diseño Singleton
+
+				variable estatica: "Puedes correr el codigo sin instanciar el objeto".
+					Se comparte entre varias instancias.
+					
+					Una variable compartida en todas las clases. Tiene el mismo valor en todas.
