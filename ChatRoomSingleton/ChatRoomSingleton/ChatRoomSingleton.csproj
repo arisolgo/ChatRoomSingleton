@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E459D32C-0C46-4F3E-B543-8F9D82974940}</ProjectGuid>
+    <ProjectGuid>{C8018EF6-5C09-470F-B6ED-2535931D1342}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ParkingLot</RootNamespace>
-    <AssemblyName>ParkingLot</AssemblyName>
+    <RootNamespace>ChatRoomSingleton</RootNamespace>
+    <AssemblyName>ChatRoomSingleton</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -43,10 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="car.cs" />
-    <Compile Include="ParkingLot.cs" />
+    <Compile Include="ChatRoomSingleton.cs" />
+    <Compile Include="Message.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

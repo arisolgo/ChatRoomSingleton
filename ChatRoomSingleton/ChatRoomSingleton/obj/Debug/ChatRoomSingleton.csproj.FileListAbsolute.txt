@@ -1,0 +1,7 @@
+C:\Users\Ariel\source\repos\ChatRoomSingleton\ChatRoomSingleton\bin\Debug\ChatRoomSingleton.exe.config
+C:\Users\Ariel\source\repos\ChatRoomSingleton\ChatRoomSingleton\bin\Debug\ChatRoomSingleton.exe
+C:\Users\Ariel\source\repos\ChatRoomSingleton\ChatRoomSingleton\bin\Debug\ChatRoomSingleton.pdb
+C:\Users\Ariel\source\repos\ChatRoomSingleton\ChatRoomSingleton\obj\Debug\ChatRoomSingleton.csprojAssemblyReference.cache
+C:\Users\Ariel\source\repos\ChatRoomSingleton\ChatRoomSingleton\obj\Debug\ChatRoomSingleton.csproj.CoreCompileInputs.cache
+C:\Users\Ariel\source\repos\ChatRoomSingleton\ChatRoomSingleton\obj\Debug\ChatRoomSingleton.exe
+C:\Users\Ariel\source\repos\ChatRoomSingleton\ChatRoomSingleton\obj\Debug\ChatRoomSingleton.pdb

@@ -20,29 +20,29 @@ namespace ParkingLot
                 
         }
 
-        public List<Marca> cars;
+        public List<Car> cars;
 
-        //Singleton Method
+       
         private ParkingLot(int TotalP)
         {
-            this.cars = new List<Marca>();
+            this.cars = new List<Car>();
             this.TotalParkingLots = TotalP;
         }
 
-        public void Add(Marca mark)
+        public void Add(Car car)
         {
-            this.cars.Add(mark);
+            this.cars.Add(car);
         }
 
-        public bool ParkCar(Marca car)
+        public bool ParkCar(Car car)
         {
             if (ParqueosUsados < TotalParkingLots)
             {
                 this.cars.Add(car);
-               Console.WriteLine($"Muy bien el auto {car.model} {car.marca} se ha estacionado. No nos hacemos responsables de robos.");
+               Console.WriteLine($"Muy bien el auto {car.Model} {car.Marca} se ha estacionado. No nos hacemos responsables de robos.");
                 return true;
             }
-            else
+            else if(ParqueosUsados > TotalParkingLots)
                 Console.WriteLine("No hay parqueos Disponibles.");
                 return false;
         }
@@ -52,6 +52,7 @@ namespace ParkingLot
             return TotalParkingLots - ParqueosUsados;
         }
 
+        //Singleton Method
         public static ParkingLot GetParkingLot(int TotalParking)
         {
             if(sharedinstance == null)
